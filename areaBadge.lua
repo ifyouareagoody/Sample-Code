@@ -1,8 +1,8 @@
 local Players = game:GetService("Players")
 local BadgeService = game:GetService("BadgeService")
-local borderPart = workspace:WaitForChild("Border") -- Assuming the part is in the Workspace
+local borderPart = workspace:WaitForChild("Border")
 
-local badgeId = 12345678 -- replace with badge id
+local badgeId = 12345678 -- example id
 
 local function onTouch(other)
     local player = Players:GetPlayerFromCharacter(other.Parent)
